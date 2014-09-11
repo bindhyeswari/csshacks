@@ -1,0 +1,9 @@
+{
+    "name": "hacks",
+    "version": "0.0.0",
+    "main": "./none.js",
+    "dependencies": {
+        "jquery": "latest",
+        "animate.css": "latest"
+    }
+}

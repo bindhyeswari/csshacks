@@ -1,0 +1,27 @@
+div#container {
+    margin-top: 600px;
+    width: 100%;
+    background-color: #eee;
+    min-height: 250px;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.entry {
+    display: none;
+    width: 30%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: red;
+    color: white;
+    padding: 2em;
+    box-sizing: border-box;
+}
+
+.display_block {
+    display: block;
+}
