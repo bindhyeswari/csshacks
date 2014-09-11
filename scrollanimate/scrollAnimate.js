@@ -21,9 +21,10 @@ $(function () {
     $(window).scroll(function () {
         var top = $('#container').offset().top;
         $('.menu').html(
-                'Window height is: ' + $(window).height() + '; ' +
-                'scrolltop is ' + $(window).scrollTop() + '; Location of div is at ... ' + $('#container').offset().top);
-        if ($(this).scrollTop() > top) {
+                '$(this).scrollTop() +  $(window).height() > top <br/>' +
+                ($(this).scrollTop() +  $(window).height()) + ' > ' +  top
+        );
+        if ($(this).scrollTop() + $(window).height() > top) {
             $('#div_to_animate').addClass('display_block animated bounceInLeft');
         }
     });
